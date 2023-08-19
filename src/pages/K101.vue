@@ -652,7 +652,7 @@
     height: 1.74%;
     top: 36.1%;
     bottom: 62.16%;
-    left: calc(50% - 440px);
+    left: calc(44.5% - 440px);
     border-radius: var(--br-9xs);
     background-color: var(--black);
     overflow: hidden;
@@ -860,7 +860,7 @@
   }
   .label2 {
     position: relative;
-    letter-spacing: 0.25px;
+    /* letter-spacing: 0.25px; */
     line-height: 20px;
   }
   .label1 {
@@ -1334,7 +1334,7 @@
   .choiceChipbActiveWrapper {
     position: absolute;
     top: calc(50% - 323.5px);
-    left: 368px;
+    left: 415px;
     width: 110px;
     height: 24px;
     font-size: var(--material-theme-body-small-size);
@@ -1919,7 +1919,7 @@
     top: 39%;
     right: 1.67%;
     bottom: 26.69%;
-    left: 19.44%;
+    left: 17.44%;
   }
   .bg4 {
     position: absolute;
@@ -1997,7 +1997,7 @@
   .choiceChipbActiveContainer {
     position: absolute;
     top: calc(50% - 215.5px);
-    left: 368px;
+    left: 415px;
     width: 110px;
     height: 24px;
     font-size: var(--material-theme-body-small-size);
@@ -2254,7 +2254,7 @@
     top: 74.47%;
     right: 1.67%;
     bottom: 1.64%;
-    left: 19.44%;
+    left: 17.44%;
   }
   .div15 {
     position: absolute;

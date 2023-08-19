@@ -162,7 +162,7 @@
         <div :class="$style.div3">公開日 : 2022/12/20</div>
         <img :class="$style.imageIcon" alt="" src="/image@2x.png" />
         <b :class="$style.title1"
-          >記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル記事タイトル</b
+          >記事タイトル記事タイトル記事タイトル記事タイト...</b
         >
       </div>
       <div :class="$style.unstyledbutton1">
@@ -500,7 +500,7 @@
   .headerMypage {
     position: absolute;
     top: 0px;
-    left: calc(50% - 187.5px);
+    /* left: calc(50% - 187.5px); */
     background-color: var(--white);
     width: 375px;
     height: 48px;
@@ -575,7 +575,7 @@
     height: 1.49%;
     top: 8.71%;
     bottom: 89.8%;
-    left: calc(50% - 172.5px);
+    left: calc(11.5% - 172.5px);
     border-radius: var(--br-9xs);
     background-color: var(--black);
     width: 156px;
@@ -902,7 +902,7 @@
   }
   .label1 {
     position: relative;
-    letter-spacing: 0.25px;
+    /* letter-spacing: 0.25px; */
     line-height: 20px;
   }
   .label {
