@@ -5,7 +5,7 @@
       <b :class="$style.b">メディア一覧</b>
     </div>
     <div :class="$style.headerMypage">
-      <div :class="$style.base" >
+      <div :class="$style.base" />
       <div :class="$style.rectangleParent">
         <div :class="$style.groupChild" />
         <div :class="$style.div">ログイン</div>
