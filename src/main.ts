@@ -2,8 +2,7 @@ import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 import App from "./App.vue"
 
-import K10 from "./pages/K10.vue";
-import K101 from "./pages/K101.vue";
+import LineForm from "./pages/LineForm.vue";
 import "./global.css";
 
 interface Route {
@@ -15,14 +14,9 @@ interface Route {
 const routes: Route[] = [
   {
     path: "/",
-    name: "K10",
-    component: K10,
-  },
-  {
-    path: "/k10",
-    name: "K101",
-    component: K101,
-  },
+    name: "LineForm",
+    component: LineForm,
+  }
 ];
 
 const router = createRouter({
@@ -32,7 +26,7 @@ const router = createRouter({
 
 router.beforeEach((toRoute, fromRoute, next) => {
   const documentTitle =
-    toRoute?.meta && toRoute?.meta?.title ? toRoute?.meta?.title : "Test-2";
+    toRoute?.meta && toRoute?.meta?.title ? toRoute?.meta?.title : "Test-1";
   window.document.title = documentTitle;
   if (toRoute?.meta?.description) {
     addMetaTag(toRoute?.meta?.description);
